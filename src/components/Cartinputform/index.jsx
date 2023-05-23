@@ -1,8 +1,10 @@
+import style from "./style.module.scss"
+
 export const ToDoinputForm = () => {
     return (
-      <div>
+      <div className={style.cartInputForm}>
         <form> 
-          <label>
+          <label className={style.label}>
             <span>Name</span>
             <input type="text"/>
           </label>
